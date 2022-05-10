@@ -1,0 +1,19 @@
+name: 'Wait for dbt Cloud Run'
+description: 'Wait for a dbt Cloud run to complete.'
+inputs:
+  dbt_cloud_account_id:
+    description: "dbt Cloud Account Id"
+    required: true
+  dbt_cloud_api_key:
+    description: "dbt Cloud API Key"
+    required: true
+  dbt_cloud_run_id:
+    description: "The dbt Cloud Run Id to wait for."
+    required: true
+  poll_interval_seconds:
+    description: "The amount of time in seconds to wait before checking the run status again."
+    required: false
+    default: "30"
+runs:
+  using: 'node16'
+  main: 'index.js'
