@@ -14,6 +14,9 @@ inputs:
     description: "The amount of time in seconds to wait before checking the run status again."
     required: false
     default: "30"
+branding:
+  icon: 'cloud'  
+  color: 'orange'
 runs:
   using: 'node16'
   main: 'index.js'
