@@ -1,0 +1,24 @@
+{
+  "name": "dbt-cloud-wait-for-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catchco/dbt-cloud-wait-for-run.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catchco/dbt-cloud-wait-for-run/issues"
+  },
+  "homepage": "https://github.com/catchco/dbt-cloud-wait-for-run#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.0",
+    "axios": "^0.27.2"
+  }
+}
